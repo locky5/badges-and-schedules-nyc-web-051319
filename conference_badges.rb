@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(names)
 badge_messages = []
-  names.collect do |name| ##name is just an arbitrary variable
+  names.collect do |name| ##name is just an arbitrary variable!!
     badge_maker(name)
   end
 end
@@ -16,7 +16,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |i| ##for each attendees do oper i
+  batch_badge_creator(attendees).each do |i| ##for each attendees[i] do...
     puts i
   end
   assign_rooms(attendees).each do |i|
