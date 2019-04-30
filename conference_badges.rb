@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(names)
 badge_messages = []
-  names.collect do |name| ##name is just an arbitrary variable
+  names.collect do |name| ##name is just an arbitrary variable!!
     badge_maker(name)
   end
 end
